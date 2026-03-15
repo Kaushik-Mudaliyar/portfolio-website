@@ -2,8 +2,8 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="lg:w-1/2 lg:h-screen   lg:flex flex flex-col justify-between lg:sticky lg:top-0">
-      <div className="lg:p-20 p-5 lg:flex lg:flex-col gap-4">
+    <header className="lg:w-1/2 lg:h-screen p-5  lg:flex flex flex-col justify-between lg:sticky lg:top-0">
+      <div className="lg:p-20  lg:flex lg:flex-col gap-4">
         <h1 className="text-3xl lg:text-4xl font-bold text-slate-200">
           Kaushik Mudaliyar
         </h1>
@@ -34,7 +34,7 @@ function Header() {
           </ul>
         </nav>
       </div>
-      <div className="flex gap-4 lg:p-25 p-10">
+      <div className="flex gap-4 lg:p-25 mt-10">
         <a href="https://github.com/Kaushik-Mudaliyar" target="_blank">
           Github
         </a>

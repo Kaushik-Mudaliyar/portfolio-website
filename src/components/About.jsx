@@ -2,27 +2,37 @@ import React from "react";
 
 function About() {
   return (
-    <div className="flex flex-col gap-4 space-y-1 lg:p-2" id="about">
-              <p>
-        I am a Computer Engineering student and Full-Stack Developer dedicated
-        to building digital products that are as robust on the inside as they
-        are seamless on the outside. My journey in tech started with a curiosity
-        for how data moves across the web, which led me to master the MERN stack
-        and maintain a 8.18 CGPA throughout my studies.
+    <div
+      className="flex flex-col gap-4 space-y-1 lg:p-2 lg:mt-0 mt-6"
+      id="about"
+    >
+      <p>
+        Hi, I'm Kaushik, a passionate Full-Stack Developer dedicated to building
+        clean, scalable, and user-friendly web applications.
       </p>
       <p>
-        Currently, I spend most of my time architecting applications like
-        DevNest, a full-stack blogging platform where I focus on bridging the
-        gap between complex backend logic and clean, responsive user interfaces.
-        I’m particularly passionate about Server-Side Rendering and building
-        scalable APIs that provide a fast, accessible experience for every user.
+        I primarily work with the MERN stack (MongoDB, Express.js, React,
+        Node.js) where I enjoy connecting powerful backend systems with
+        intuitive frontend experiences. My journey into development started with
+        curiosity about how the web works, which gradually grew into a strong
+        interest in building complete applications—from designing robust APIs to
+        creating responsive user interfaces.
       </p>
       <p>
-        When I’m not at my desk coding, I’m likely exploring new backend
-        architectures, practicing React patterns for interviews, or staying up
-        to date with the latest in the Next.js ecosystem. I’m currently seeking
-        opportunities in Ahmedabad or Gandhinagar where I can contribute to a
-        team and build software that makes a real impact.
+        I enjoy solving technical challenges, whether it’s optimizing
+        performance in React applications or exploring modern backend
+        architectures and system design concepts. Through my projects, I’ve
+        gained hands-on experience in developing full-stack applications,
+        managing application state, and deploying production-ready software.
+      </p>
+      <p>
+        Currently, I’m seeking opportunities to grow as a developer and
+        contribute to impactful projects while collaborating with a
+        forward-thinking team.
+      </p>
+      <p>
+        When I’m not coding, I enjoy practicing problem-solving patterns for
+        technical interviews and exploring new backend technologies.
       </p>
     </div>
   );

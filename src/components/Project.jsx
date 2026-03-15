@@ -4,7 +4,7 @@ function Project(props) {
   console.log(props);
   return (
     <div id="project" className="lg:w-full lg:flex gap-10 lg:items-center">
-      <div className="w-full mt-6 h-24 bg-slate-400 shrink-0 rounded-xl md:w-40  ">
+      <div className="w-full mt-6 h-30 lg:h-24 bg-slate-400 shrink-0 rounded-xl md:w-40  ">
         <img
           src={props.image}
           alt={props.title}
