@@ -28,7 +28,7 @@ function App() {
         {/* Left side Sticky Header */}
         <Header />
         <main className="lg:w-1/2 text-slate-300 mt-6 lg:mt-0">
-          <section className="flex flex-col lg:p-20 p-5">
+          <section className="flex flex-col md:p-20 p-5">
             {/* About Section */}
             <h1 className="font-bold text-gray-200 block lg:hidden">ABOUT</h1>
             <About />
